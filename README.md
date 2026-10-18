@@ -14,6 +14,7 @@ In this lab you've learned the basics of number theory as it relates to subtract
 ## Names
 
 Dylan Goodell
+
 Austin Hart
 
 ## Summary
