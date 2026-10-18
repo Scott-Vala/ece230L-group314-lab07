@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+half_sub Test Passed: A=0, B=1 => Y=1, B_out=1
+ones_compliment Test Passed: A=0101, B=0010 => Y=0111
+ones_compliment Test Passed: A=1010, B=0010 => Y=1100
+ones_compliment Test Passed: A=0101, B=1101 => Y=0011
+ones_compliment Test Passed: A=1010, B=1101 => Y=1000
+twos_compliment Test Passed: A=01010111 => Y=10101001
+twos_compliment Test Passed: A=00000001 => Y=11111111
+twos_compliment Test Passed: A=00000010 => Y=11111110
+twos_compliment Test Passed: A=00001000 => Y=11111000
+All Testcases Passed!
+$finish called at time : 190 ns : File "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/test.v" Line 117

@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/full_adder.v,1792343444,verilog,,C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/half_sub.v,,full_adder,,,../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/half_sub.v,1792343439,verilog,,C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/ones_compliment.v,,half_sub,,,../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/ones_compliment.v,1792344454,verilog,,C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/top.v,,ones_compliment,,,../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/test.v,1792341716,verilog,,,,test,,,../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/top.v,1792345114,verilog,,C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/twos_compliment.v,,top,,,../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/twos_compliment.v,1792345157,verilog,,C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/test.v,,twos_compliment,,,../../../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/project_7/project_7.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,

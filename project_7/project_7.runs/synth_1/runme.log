@@ -1,0 +1,243 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Sun Oct 18 11:55:26 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 537.324 ; gain = 221.535
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23012
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1269.262 ; gain = 538.152
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'half_sub' [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/half_sub.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'half_sub' (0#1) [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/half_sub.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ones_compliment' [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/ones_compliment.v:5]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/full_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/full_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ones_compliment' (0#1) [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/ones_compliment.v:5]
+INFO: [Synth 8-6157] synthesizing module 'twos_compliment' [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/twos_compliment.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'twos_compliment' (0#1) [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/twos_compliment.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1386.934 ; gain = 655.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1386.934 ; gain = 655.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1386.934 ; gain = 655.824
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1386.934 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[0]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:12]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[1]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:13]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[2]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:14]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[3]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:15]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[4]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:16]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[5]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:17]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[6]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:18]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[7]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:19]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[8]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:20]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'sw[9]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:21]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[0]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:31]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[1]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:32]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[2]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:33]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[3]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:34]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[4]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:35]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[5]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:36]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[6]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:37]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[7]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:38]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[8]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:39]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[9]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:40]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[10]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:41]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[11]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:42]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[12]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:43]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing 'led[13]', please type 'get_ports -help' for usage info. [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc:44]
+Finished Parsing XDC File [C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1459.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1459.320 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1459.320 ; gain = 728.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1459.320 ; gain = 728.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1459.320 ; gain = 728.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1459.320 ; gain = 728.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1459.320 ; gain = 728.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1569.879 ; gain = 838.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1569.879 ; gain = 838.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1579.562 ; gain = 848.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     5|
+|2     |LUT3 |     2|
+|3     |LUT4 |     2|
+|4     |LUT5 |     2|
+|5     |LUT6 |     7|
+|6     |IBUF |    10|
+|7     |OBUF |    14|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1829.133 ; gain = 1025.637
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:53 . Memory (MB): peak = 1829.133 ; gain = 1098.023
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1838.316 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1842.062 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: af71a3c
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 0 Warnings, 24 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:01:21 . Memory (MB): peak = 1842.062 ; gain = 1304.738
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1842.062 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/project_7/project_7.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 18 11:57:19 2026...

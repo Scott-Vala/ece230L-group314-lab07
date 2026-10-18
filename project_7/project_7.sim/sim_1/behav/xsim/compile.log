@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/half_sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/ones_compliment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ones_compliment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/twos_compliment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twos_compliment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sirpa/Documents/College/ece230L/ece230L-group314/Week_7_Number_Theory_Subtraction/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
